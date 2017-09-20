@@ -20,9 +20,6 @@ const nominalValues = [
   ["ONE HUNDRED", 100]
 ];
 
-
-
-
 function checkCashRegister(price, cash, cid) {
 
   let changeSum = getChangeSum(price, cash);
@@ -43,8 +40,6 @@ function getDrawerSum(drawer) {
 
 function getSortedChange(price, cash, cid) {
   let changeSumRemaining = getChangeSum(price, cash);
-
-  //let allNominals = getAllNominals();
 
   let changeToGive = [
     ["PENNY", 0],
